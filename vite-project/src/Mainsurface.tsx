@@ -5,23 +5,27 @@ import backgroundimage from '../images/mysticgrove.jpg';
 const MainSurface: React.FC = () => {
   const containerStyle = {
     display: 'flex',
-    width: '100%',
-    justifyContent: 'space-between',
+    margin:'0',
+    padding:'0',
+    width:'100%',
+    height: '99vh',
   };
 
   const imageStyle = {
-    width: '50%',
-    height: '100vh',
+    flex: 1,
     backgroundImage: `url(${backgroundimage})`,
-    backgroundSize: 'cover',
-  };
-
-  const image2Style = {
-    width: '50%',
-    height: '100vh',
-    backgroundImage: `url(${backgroundimage2})`,
-    backgroundSize: 'cover',
+    backgroundSize: 'cover', 
+    backgroundRepeat: 'no-repeat',
+    margin: '0',
     
+  };
+  
+  const image2Style = {
+    flex: 1,
+    backgroundImage: `url(${backgroundimage2})`,
+    backgroundSize: 'cover', 
+    backgroundRepeat: 'no-repeat',
+    margin: '0',
   };
 
   return (

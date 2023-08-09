@@ -17,7 +17,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ imageSrc, title, description,
         <h2>{title}</h2>
         <p className="description-text" style={{width:'50%', margin:'0'}}>{description}</p>
         </div>
-        <div className='product-addToCart' style={{margin:'auto', marginRight:'5rem', marginTop:'4rem'}}>
+        <div className='product-addToCart' style={{margin:'auto', marginRight:'5rem', marginTop:'6rem'}}>
         <p style={{paddingLeft:'2rem',}}>${price.toFixed(2)}</p>
         <button>Add to Cart</button>
         </div>
