@@ -1,5 +1,5 @@
 import React from 'react';
-import './media.css';
+import './Media.css';
 interface ProductCardProps {
   imageSrc: string;
   description: string;
