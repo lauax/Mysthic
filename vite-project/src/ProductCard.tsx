@@ -1,6 +1,5 @@
-// src/components/ProductCard.tsx
 import React from 'react';
-
+import './media.css';
 interface ProductCardProps {
   imageSrc: string;
   description: string;
@@ -10,16 +9,18 @@ interface ProductCardProps {
 
 const ProductCard: React.FC<ProductCardProps> = ({ imageSrc, title, description, price }) => {
   return (
-    <div className="product-card" style={{width:'100%', justifyContent:'space-between', display:'flex', height:'300px'}}>
-      <div className="product-image" style={{ width: '150px'}}>
-        <img src={imageSrc} alt="Product" />
+    <div className="product-card" style={{ width: '99vw', display: 'flex', height:'40vh'}}>
+      <div className="product-image" style={{ width: '25%', padding: '10px' }}>
+        <img src={imageSrc} alt="Product" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
       </div>
-      <div className="product-description" style={{ width: '55%' }}>
+      <div className="product-description" style={{ width: '75%', padding: '10px',  }}>
         <h2>{title}</h2>
-        <p>{description}</p>
-        <p>${price.toFixed(2)}</p>
+        <p className="description-text" style={{width:'50%', margin:'0'}}>{description}</p>
+        </div>
+        <div className='product-addToCart' style={{margin:'auto', marginRight:'5rem', marginTop:'4rem'}}>
+        <p style={{paddingLeft:'2rem',}}>${price.toFixed(2)}</p>
         <button>Add to Cart</button>
-      </div>
+        </div>
     </div>
   );
 };

@@ -12,7 +12,7 @@ const ProductList = () => {
     },
     {
       imageSrc: vodka,
-      description:'Made with 100% corn and our Triassic Basin water. Has a slight sweet corn aroma and clean creamy mouthfeel. Mystic Vision Vodka from Grain 40% Alc./Vol. Distilled by Barrister & Brewer Distilling Co. Durham, NC',
+      description:'Made with 100% corn and our Triassic Basin water. Has a slight sweet corn aroma and clean creamy mouthfeel. Mystic Vision Vodka from Grain 40% Alc./Vol. Ingredients matter. For our new & improved Vodka, we only use 100% high-quality corn harvested in the heartland by American farmers. We’re certain you can taste the difference.',
       title: 'Mystic Vodka',
       price: 19.99,
     },
