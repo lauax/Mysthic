@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaEnvelope, FaPhone } from 'react-icons/fa';
-import './Footer.css'; // Import the CSS file for styling
+import './Footer.css';
 
 const Footer: React.FC = () => {
   return (
