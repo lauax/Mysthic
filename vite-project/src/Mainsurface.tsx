@@ -1,40 +1,21 @@
-import React from 'react';
 import backgroundimage2 from '../images/mysthic.jpg';
 import backgroundimage from '../images/mysticgrove.jpg';
+import './Media.css';
 
-const MainSurface: React.FC = () => {
-  const containerStyle = {
-    display: 'flex',
-    margin:'0',
-    padding:'0',
-    width:'100%',
-    height: '99vh',
-  };
-
-  const imageStyle = {
-    flex: 1,
-    backgroundImage: `url(${backgroundimage})`,
-    backgroundSize: 'cover', 
-    backgroundRepeat: 'no-repeat',
-    margin: '0',
-    
-  };
-  
-  const image2Style = {
-    flex: 1,
-    backgroundImage: `url(${backgroundimage2})`,
-    backgroundSize: 'cover', 
-    backgroundRepeat: 'no-repeat',
-    margin: '0',
-  };
-
+const MainSurface = () => {
   return (
-    <main className="main">
-      <div className="background-picture" style={containerStyle}>
-        <div className="background-image" style={imageStyle}></div>
-        <div className="background-image" style={image2Style}></div>
-      </div>
-    </main>
+    <div style={{ width: '100vw', display: 'flex' }}>
+      <img className='background-image'
+        src={backgroundimage}
+        alt=""
+        style={{ width: '50vw', height:'100vh' }}
+      />
+      <img className='background-image'
+        src={backgroundimage2}
+        alt=""
+        style={{ width: '50vw', height:'100vh' }}
+      />
+    </div>
   );
 };
 

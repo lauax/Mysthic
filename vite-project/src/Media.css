@@ -1,9 +1,34 @@
+@media (max-width: 1300px) {
+    .background-image {
+        height: 75vh !important;
+    }
+}
+
+@media (max-width: 900px) {
+    .background-image {
+        height: 60vh !important;
+    }
+}
+ 
  @media (max-width: 768px) {
     
     .product-card {
       flex-direction: column;
       margin-bottom: 1rem;
     }
-  
-   
+    .background-image {
+        height: 50vh !important;
+    }
+    
+}
+
+@media (max-width: 500px) {
+    .background-image {
+        height: 35vh !important;
+    }
+}
+@media (max-width: 368px) {
+    .background-image {
+        height: 30vh !important;
+    }
 }
