@@ -1,13 +1,16 @@
-import logo from '../images/MysticFarmandDistilleryLogo.png'
-import './App.css'
+
+import Header from './Header'
+import MainSurface from './Mainsurface'
+import ProductList from './ProductList'
 function App() {
   
 
   return (
    <>
-   <img src={logo} alt="Logo" style={{width:'125px', height:'100px',padding:'0'}}></img>
-   </>
-      
+   <Header/>
+   <MainSurface/>
+   <ProductList />
+  </>
   )
 }
 export default App
