@@ -9,17 +9,15 @@ interface ProductCardProps {
 
 const ProductCard: React.FC<ProductCardProps> = ({ imageSrc, title, description, price }) => {
   return (
-    <div className="product-card" style={{ width: '99vw', display: 'flex', height:'40vh'}}>
-      <div className="product-image" style={{padding: '10px'}}>
-        <img src={imageSrc} alt="Product" style={{ width: '20vw', height: '40vh'}} />
-      </div>
-      <div className="product-description" style={{ width: '75%', padding: '10px', marginTop:'1rem'  }}>
+    <div className='product-card' style={{display:'flex', width:'100vw', justifyContent:'space-between', alignItems:'center', textAlign:'center'}}>
+        <img style={{width:'25%'}} src={imageSrc} alt="images" />
+        <div style={{width:'40%'}}>
         <h2>{title}</h2>
-        <p className="description-text" style={{width:'50%', margin:'0'}}>{description}</p>
+        <p>{description}</p>
         </div>
-        <div className='product-addToCart' style={{margin:'auto', marginRight:'5rem', marginTop:'6rem'}}>
-        <p style={{paddingLeft:'2rem',}}>${price.toFixed(2)}</p>
-        <button>Add to Cart</button>
+        <div style={{width:'20%'}}>
+            <p>{price}</p>
+            <button>Add to cart</button>
         </div>
     </div>
   );
