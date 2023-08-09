@@ -4,7 +4,7 @@ import './Media.css';
 
 const MainSurface = () => {
   return (
-    <div className='background-image' style={{ position: 'relative', width: '99vw', height: '100vh', display: 'flex' }}>
+    <div className='background-image' style={{ position: 'relative', width: '98.2vw', height: '100vh', display: 'flex' }}>
       <img className='background-image'
         src={backgroundimage}
         alt=""
