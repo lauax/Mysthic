@@ -13,7 +13,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ imageSrc, title, description,
       <div className="product-image" style={{ width: '25%', padding: '10px' }}>
         <img src={imageSrc} alt="Product" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
       </div>
-      <div className="product-description" style={{ width: '75%', padding: '10px',  }}>
+      <div className="product-description" style={{ width: '75%', padding: '10px', marginTop:'1rem'  }}>
         <h2>{title}</h2>
         <p className="description-text" style={{width:'50%', margin:'0'}}>{description}</p>
         </div>
