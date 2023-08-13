@@ -1,6 +1,7 @@
-body{
+body, html{
     background-color:black;
     font-family:'Myriad Pro';
     color: white;
     overflow-x: hidden;
+    
 }
