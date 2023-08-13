@@ -1,20 +1,9 @@
-@media (max-width: 1600px) {
-    .footer-container{
-        width: 93vw !important;
-    }
-    
-}
 @media (max-width: 1300px) {
     .background-image {
         height: 75vh !important;
         
     }
-    .footer-container{
-        width: 96vw !important;
-    }
-    .productcard {
-        width: 88vw !important;
-      }
+    
       
 }
 
@@ -34,58 +23,21 @@
  @media (max-width: 768px) {
     
     .productcard {
-      width: 88vw !important;
+      
       flex-direction: column;
       margin-bottom: 1rem;
       
     }
     
-    .footer-container{
-        width: 87vw !important;
-    }
-    .background-image {
-        height: 50vh !important;
-        width: 47vw !important;
-        
-
-    }
+    
+    
     
    
 }
 
-@media (max-width: 525px) {
-    .background-image {
-        height: 33vh !important;
-        
-    }
-    .footer-container{
-        width: 90vw !important;
-    }
-    
 
-}
-@media (max-width: 460px) {
-    .footer-container{
-        width: 85vw !important;
-    }
-    
-}
-@media (max-width: 410px) {
-    .footer-container{
-        width: 82vw !important;
-    }
-}
 
-@media (max-width: 380px) {
-    .background-image {
-        height: 30vh !important;
-        
-    }
-    .product-card {
-        width: 95vw !important;
-      }
-    .footer-container{
-        width: 81vw !important;
-    }
-}
+
+
+
 
