@@ -4,16 +4,16 @@ import './Media.css';
 
 const MainSurface = () => {
   return (
-    <div className='background-image' style={{ position: 'relative', width: '98.2vw', height: '100vh', display: 'flex' }}>
+    <div className='background-image' style={{ position: 'relative', height: '100vh', display: 'flex', objectFit:'scale-down',  }}>
       <img className='background-image'
         src={backgroundimage}
         alt=""
-        style={{ width: '50vw', height: '100%' }}
+        style={{ width: '48vw', height: '100%', margin:'0', padding:'0' }}
       />
       <img className='background-image'
         src={backgroundimage2}
         alt=""
-        style={{ width: '50vw', height: '100%' }}
+        style={{ width: '48vw', height: '100%', margin:'0', padding:'0'}}
       />
       <p className='introduction' style={{ 
         position: 'absolute', 
