@@ -2,14 +2,17 @@ import React from 'react';
 import logo from '../images/MysticFarmandDistilleryLogo.png';
 import cart from '../images/cart.jpg';
 import profile from '../images/profil.jpg';
-
+import './Media.css';
 const Header: React.FC = () => {
   const headerStyle = {
     backgroundColor: 'black',
-    width: '100%',
+    width: '98%',
     display: 'flex',
     justifyContent: 'space-between',
     alignItems: 'center',
+    margin:'0',
+    padding:'0'
+    
     
   };
 
@@ -22,12 +25,15 @@ const Header: React.FC = () => {
   const iconContainerStyle = {
     display: 'flex',
     alignItems: 'center',
+    margin:'0', 
+    padding:'0'
   };
 
   const iconStyle = {
     width: '35px',
     height: '35px',
-    paddingRight:'20px'
+    margin:'0', 
+    padding:'0'
   };
 
   return (

@@ -8,12 +8,12 @@ const MainSurface = () => {
       <img className='background-image'
         src={backgroundimage}
         alt=""
-        style={{ width: '48vw', height: '100%', margin:'0', padding:'0' }}
+        style={{ width: '50vw', height: '100%', margin:'0', padding:'0' }}
       />
       <img className='background-image'
         src={backgroundimage2}
         alt=""
-        style={{ width: '48vw', height: '100%', margin:'0', padding:'0'}}
+        style={{ width: '50vw', height: '100%', margin:'0', padding:'0'}}
       />
       <p className='introduction' style={{ 
         position: 'absolute', 
@@ -24,8 +24,8 @@ const MainSurface = () => {
         textAlign: 'center',
         fontSize: '1.5vw',  
         lineHeight: '1.4',
-        margin: '0 5vw',  
-        maxWidth: '90vw'  
+          
+         
       }}>
         Welcome to Mystic. At Mystic , we craft more than just alcoholic beverages; we create experiences that transport you to a realm of unparalleled taste, innovation, and luxury.
         <br/><br/>Our commitment to excellence and a passion for pushing boundaries have culminated in a collection of spirits that redefine the art of indulgence. Picture a world where every sip is an exploration, every moment a celebration.

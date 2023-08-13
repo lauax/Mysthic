@@ -1,14 +1,24 @@
+@media (max-width: 1600px) {
+    .footer-container{
+        width: 93vw !important;
+    }
+    
+}
 @media (max-width: 1300px) {
     .background-image {
         height: 75vh !important;
         
     }
     .footer-container{
-        width: 93vw !important;
+        width: 96vw !important;
     }
-    
-    
+    .productcard {
+        width: 88vw !important;
+      }
+      
 }
+
+
 
 @media (max-width: 900px) {
     .background-image {
@@ -16,37 +26,49 @@
         
     }
     .footer-container{
-        width: 90vw !important;
+        width: 95vw !important;
     }
+    
 }
  
  @media (max-width: 768px) {
     
-    .product-card {
+    .productcard {
+      width: 88vw !important;
       flex-direction: column;
       margin-bottom: 1rem;
+      
+    }
+    
+    .footer-container{
+        width: 87vw !important;
     }
     .background-image {
         height: 50vh !important;
-    }
-    .footer-container{
-        width: 89vw !important;
+        width: 47vw !important;
+        
+
     }
     
+   
 }
 
 @media (max-width: 525px) {
     .background-image {
-        height: 35vh !important;
+        height: 33vh !important;
+        
     }
     .footer-container{
-        width: 87vw !important;
+        width: 90vw !important;
     }
+    
+
 }
 @media (max-width: 460px) {
     .footer-container{
         width: 85vw !important;
     }
+    
 }
 @media (max-width: 410px) {
     .footer-container{
